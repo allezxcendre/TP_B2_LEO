@@ -264,7 +264,7 @@ Faites *clean* 🧹, vous êtes des grands now :
 filtre : arp
 ---
 
-[Capture ARP](https://github.com/allezxcendre/TP_B2_LEO/blob/main/TP1_Ma%C3%AEtrise.r%C3%A9seau.du.poste/arp.pcap.pcapng)
+[Capture ARP](https://github.com/allezxcendre/TP_B2_LEO/blob/main/TP1_Ma%C3%AEtrise.r%C3%A9seau.du.poste/Capture/arp.pcap.pcapng)
 
 ☀️ **Capture DNS**
 
@@ -276,7 +276,7 @@ filtre : arp
 filtre : dns
 ---
 
-[Capture DNS](https://github.com/allezxcendre/TP_B2_LEO/blob/main/TP1_Ma%C3%AEtrise.r%C3%A9seau.du.poste/dns.pcap.pcapng)
+[Capture DNS](https://github.com/allezxcendre/TP_B2_LEO/blob/main/TP1_Ma%C3%AEtrise.r%C3%A9seau.du.poste/Capture/dns.pcap.pcapng)
 
 ☀️ **Capture TCP**
 
@@ -291,7 +291,7 @@ filtre : dns
 filtre : tcp
 ---
 
-[Capture TCP](https://github.com/allezxcendre/TP_B2_LEO/blob/main/TP1_Ma%C3%AEtrise.r%C3%A9seau.du.poste/tcp.pcap.pcapng)
+[Capture TCP](https://github.com/allezxcendre/TP_B2_LEO/blob/main/TP1_Ma%C3%AEtrise.r%C3%A9seau.du.poste/Capture/tcp.pcap.pcapng)
 
 ![Packet sniffer](img/wireshark.jpg)
 
