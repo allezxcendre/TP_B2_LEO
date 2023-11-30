@@ -223,7 +223,7 @@ jobs:
 
 
 ```
-![capture-sonde-TCP](capute-TCP-discord.jpg)
+![capture-sonde-TCP]([capute-TCP-discord.jpg](https://github.com/allezxcendre/TP_B2_LEO/blob/main/TP5_Int%C3%A9gration/capute-TCP-discord.png))
 
 # III. Héberger
 
