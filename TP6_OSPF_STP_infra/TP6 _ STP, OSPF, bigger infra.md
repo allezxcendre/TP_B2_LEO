@@ -382,11 +382,9 @@ PC2> ping 10.6.52.1
 
 
 🦈 **`tp6_ospf.pcapng`**
-[reference](./ospf-paquet)
+[capture ospf](./ospf-paquet.pcapng)
 
-On peux voir que le routeur a pour destination 224.0.0.5 qui est l'ip pour dire qu'il communique avec plusieurs routeurs en même temps grace a ospf
 
-> *Un BPDU c'est juste le nom qu'on donne à une trame OSPF échangée entre deux routeurs.*
 
 ## III. DHCP relay
 
@@ -413,11 +411,6 @@ subnet 10.6.3.0 netmask 255.255.255.0 {
 
 🌞 **Configurer un DHCP relay sur la passerelle de John**
 
-- vérifier que Waf et John peuvent récupérer une IP en DHCP
-- check les logs du serveur DHCP pour voir les DORA
-  - je veux ces 4 lignes de logs dans le compte-rendu
-  - pour John et pour Waf
-- la conf sur le routeur qui est la passerelle de John c'est :
 
 ```
 R1(config)#interface f
@@ -442,22 +435,4 @@ Dec 08 13:25:13 clone.hostname dhcpd[766]: DHCPREQUEST for 10.6.1.100 (10.6.1.25
 Dec 08 13:25:13 clone.hostname dhcpd[766]: DHCPACK on 10.6.1.100 to 00:50:79:66:68:02 (PC3) via enp0s
 ```
 
-> *Ui c'est tout. Bah... quoi de plus ? Il a juste besoin de savoir à qui faire passer les requêtes !*
 
-## IV. Bonus
-
-### 1. ACL
-
-C'est un peu moche que les clients puissent `ping` les IPs des routeurs de l'autre côté de l'infra.
-
-Normalement, il peut joindre sa passerelle, internet, épuicétou.
-
-🌞 **Configurer une access-list**
-
-- ça se fait sur les routeurs
-- le but :
-  - les clients peuvent ping leur passerelle
-  - et internet
-  - épuicétou
-
-![it ain't one](./img/it_aint_one.jpg)
