@@ -89,7 +89,7 @@ Et3/3               Desg FWD 100       128.16   P2p
 ```
 SW1(config-if)#spanning-tree cost 200
 ```
-[capture STP](./capture-STP.pacapng)
+[capture STP](./capture-STP.pcapng)
 
 ## II. OSPF
 
