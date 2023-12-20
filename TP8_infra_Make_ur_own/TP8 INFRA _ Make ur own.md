@@ -1,6 +1,6 @@
-[Schéma infrastructure réseaux](./schema_visuel.vpd)
+[Schéma infrastructure réseaux](./schema_visuel.vpd.pdf)
 
-[tableau d'adressage](tableau_d'adressage_TP8)
+[tableau d'adressage](./tableau_d'adressage_TP8.xlsx)
 
 conf gns switch et routeur
 ```
